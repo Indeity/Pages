@@ -3,119 +3,109 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="initial-scale=1.0, user-scalable=no, width=device-width">
-    <link id="favicon" rel="shortcut icon" type="image/png" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAFW0lEQVRYR82XfVSPZxjHP0+/VbLQVETMvA8x5G3NwRRFmfdNjZPUvI8zQrbD7DibcjRkGsvbykupM+0gB01DGKUYsZMY1mqIsPL2U8/O3VX7WX6ms7F2//c8z/Xyva/r+73u+9Go6grV62DBQHT6otMJeAWwK3e/CVxEIxONfZSSRIh2qyqhtacafaa3woI5gC9g81R7MbgLbKGUMD7Usv/O58kAPtdtMLIQnWmAZRUTVzYzohGBJfOYoSlQjy3zABbqLbFkG9DuHyau7JaFkaHM085V/vA4gE/1zhjYDTg8o+QVYQoowZOPtIxH4/4VgOz88HNIbgJhxO3RSpgAqJ4/IO0Zlv1JBczCiq4VnDABCNOXoDPzGZfdfDiNcOZoweqjABCpnf4XbK8ybk0DXcdIKS5KogIgVF9rbWDcvDfg3bZlBkRmwpJjprhL3gQXBxiYAKW6vK9tBWn+8FsxbMqCDafhQYnJx9kWxrhA6A+md+n+cDQPpuxlHSFaoEaoXkeD/G+HY9POAYJ2QY0XYPtw8IqH5IvinD8FnGzBOx6SLpgC5kyArAJoXRdKSmHoNsi+Id/7NoHvRoFbDBzJk3enA+HGPei1qWxYNdBYrPsOasbmxGHgugFOXBXDiR0hpxCSL4GlBdwPBlU+tdPRO0wALk2CZenwZSbEeMPrzuD6NVwpBp/msH0EhB+D4BSJUzwTbt8HhwjAAj+NMD0qdhBBDjXBI9Z8KxvVgl8mw9nrUP9FqBcBJeVtyJsC4WmSxNoAGWPhWD4EJMHw1pAwBE5dgw7roI09nAmSHI0jIbeINaoF6efG47rlLMw/aB5Aj4ZwZAzM3AfhfaFbNKTli+2VqbA03dRnfxdY7QVOK8C7BWz0EU45rgD3JhA3WPz6xZW197gCUFA0A/vZKUI8c+vtV8WxwRdSiZD9suMybkyFVZnwySF5dq4FuZPBcyuoyq0ZIFIb8g24OsHs7mChwZQ9EHWS6wrAw3vBGBSAiOPmAYT0gOmu0GAlZAbAzzdhmDopkGQxWTB3vzyrZCVzIDAJrAwQ4SEq2foTNLeDxrWhoS2sPQnzUykpA3BtGobIDPg41TwAtYsWdtBni+zIqyk0ihTbCxNhRw5MS5bnGga4GywcqGkJy90h9iy0eAnsbeD7y9DVCY7mw8TdAqAgYyz2iij+O80D2O8n+k48B35twc0ZrhbD3AMwqxsc/hUCd4lvW3vICgLPOGhVF5Z7iLQVL1TppyfDiNZw/S6MSJQWpMf44NreETqufxyAktUBP8j9Hc4UwMNSeKulVGvxUTgyGnJuwshE8X2/Myz1EBIqFazyhOarIWe8yLj3ZpjRFWpZgXusImGYHjXhNYJW9heSXbsjgTrXh8j+ovns98A7AXZdEGIpIk7aI+RLHQ13jNA/Tnr+4zg4Xyj2Y9pBtA/YL4edI6GDIzhGQNQAGVxdopUMF+u+TjZsVgNlQSosKh+bKnlAexiUAHtHQdNVcPGWkOz2B7D6hAyXpJHgYANuGyHKC95pA92jRfuq1PFDpAJqujarAzvOw1de0OdlaLVGDSJ12YT8Rb2xmd4FZqVAbWtY2BMWHJJpqHZRM1zKr9bJAMgulLLHD4Z+TSGvCNTs990OSefFbnBLUBO21yY4mGtq71L3ss0Z7Zbh+OdhZKExbm4PGNUG7pfA+lOwMgN6NgIlQ58EUwAlrY71wGsrpI+FwnuQclns84tMdor1ob1F3qoiFWtypzJ5Gg0WWP/nx3E5COPLtnS6PFXL+p9cSBSsar+SKRDVeimtYEi1XssrQFTrj0kFiGr9NXv0SKi2n9PK59Jz+j3/A2JwBwXagI4aAAAAAElFTkSuQmCC">
+    <!--    <meta name="viewport" content="initial-scale=1.0, user-scalable=no, width=device-width">-->
+
+    <meta name="mobile-web-app-capable" content="yes"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <meta name="viewport" content="minimal-ui, width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+
+    <link id="favicon" rel="shortcut icon" type="image/png"
+          href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAFW0lEQVRYR82XfVSPZxjHP0+/VbLQVETMvA8x5G3NwRRFmfdNjZPUvI8zQrbD7DibcjRkGsvbykupM+0gB01DGKUYsZMY1mqIsPL2U8/O3VX7WX6ms7F2//c8z/Xyva/r+73u+9Go6grV62DBQHT6otMJeAWwK3e/CVxEIxONfZSSRIh2qyqhtacafaa3woI5gC9g81R7MbgLbKGUMD7Usv/O58kAPtdtMLIQnWmAZRUTVzYzohGBJfOYoSlQjy3zABbqLbFkG9DuHyau7JaFkaHM085V/vA4gE/1zhjYDTg8o+QVYQoowZOPtIxH4/4VgOz88HNIbgJhxO3RSpgAqJ4/IO0Zlv1JBczCiq4VnDABCNOXoDPzGZfdfDiNcOZoweqjABCpnf4XbK8ybk0DXcdIKS5KogIgVF9rbWDcvDfg3bZlBkRmwpJjprhL3gQXBxiYAKW6vK9tBWn+8FsxbMqCDafhQYnJx9kWxrhA6A+md+n+cDQPpuxlHSFaoEaoXkeD/G+HY9POAYJ2QY0XYPtw8IqH5IvinD8FnGzBOx6SLpgC5kyArAJoXRdKSmHoNsi+Id/7NoHvRoFbDBzJk3enA+HGPei1qWxYNdBYrPsOasbmxGHgugFOXBXDiR0hpxCSL4GlBdwPBlU+tdPRO0wALk2CZenwZSbEeMPrzuD6NVwpBp/msH0EhB+D4BSJUzwTbt8HhwjAAj+NMD0qdhBBDjXBI9Z8KxvVgl8mw9nrUP9FqBcBJeVtyJsC4WmSxNoAGWPhWD4EJMHw1pAwBE5dgw7roI09nAmSHI0jIbeINaoF6efG47rlLMw/aB5Aj4ZwZAzM3AfhfaFbNKTli+2VqbA03dRnfxdY7QVOK8C7BWz0EU45rgD3JhA3WPz6xZW197gCUFA0A/vZKUI8c+vtV8WxwRdSiZD9suMybkyFVZnwySF5dq4FuZPBcyuoyq0ZIFIb8g24OsHs7mChwZQ9EHWS6wrAw3vBGBSAiOPmAYT0gOmu0GAlZAbAzzdhmDopkGQxWTB3vzyrZCVzIDAJrAwQ4SEq2foTNLeDxrWhoS2sPQnzUykpA3BtGobIDPg41TwAtYsWdtBni+zIqyk0ihTbCxNhRw5MS5bnGga4GywcqGkJy90h9iy0eAnsbeD7y9DVCY7mw8TdAqAgYyz2iij+O80D2O8n+k48B35twc0ZrhbD3AMwqxsc/hUCd4lvW3vICgLPOGhVF5Z7iLQVL1TppyfDiNZw/S6MSJQWpMf44NreETqufxyAktUBP8j9Hc4UwMNSeKulVGvxUTgyGnJuwshE8X2/Myz1EBIqFazyhOarIWe8yLj3ZpjRFWpZgXusImGYHjXhNYJW9heSXbsjgTrXh8j+ovns98A7AXZdEGIpIk7aI+RLHQ13jNA/Tnr+4zg4Xyj2Y9pBtA/YL4edI6GDIzhGQNQAGVxdopUMF+u+TjZsVgNlQSosKh+bKnlAexiUAHtHQdNVcPGWkOz2B7D6hAyXpJHgYANuGyHKC95pA92jRfuq1PFDpAJqujarAzvOw1de0OdlaLVGDSJ12YT8Rb2xmd4FZqVAbWtY2BMWHJJpqHZRM1zKr9bJAMgulLLHD4Z+TSGvCNTs990OSefFbnBLUBO21yY4mGtq71L3ss0Z7Zbh+OdhZKExbm4PGNUG7pfA+lOwMgN6NgIlQ58EUwAlrY71wGsrpI+FwnuQclns84tMdor1ob1F3qoiFWtypzJ5Gg0WWP/nx3E5COPLtnS6PFXL+p9cSBSsar+SKRDVeimtYEi1XssrQFTrj0kFiGr9NXv0SKi2n9PK59Jz+j3/A2JwBwXagI4aAAAAAElFTkSuQmCC">
     <title>行政区划图</title>
     <style>
         html,
-    body,
-    #container {
-        width: 100%;
-        height: 100%;
-        margin: 0px;
-    }
+        body,
+        #container {
+            width: 100%;
+            height: 100%;
+            margin: 0px;
+        }
 
+        #panel {
+            position: absolute;
+            top: 21px;
+            bottom: 0;
+            left: 0;
+            height: max-content;
+            max-height: 80%;
+            overflow: auto;
+            overflow-x: hidden;
+            /*width: 200px;*/
+            z-index: 999;
+            /*border-left: 1px solid #eaeaea;*/
+            color: white;
+            background: rgba(0, 0, 0, 0.5);
+        }
 
-#panel {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    height: 61%;
-    overflow: auto;
-    overflow-x: hidden;
-    width: 200px;
-    z-index: 999;
-    border-left: 1px solid #eaeaea;
-    background: #fff;
-}
+        #upt-panel {
+            position: absolute;
+            z-index: 999;
+            /*width: 200px;*/
+            max-height: 38px;
+        }
 
-#panel-botton {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    overflow: auto;
-    overflow-x: hidden;
-    width: 200px;
-    z-index: 999;
-    border-left: 1px solid #eaeaea;
-    background: #fff;
-}
+        #upt-panel label, #full-panel label {
+            text-align: center;
+            background-color: #3366cc;
+            color: white;
+        }
 
+        #full-panel {
+            position: absolute;
+            right: 0;
+            z-index: 999;
+            /*width: 200px;*/
+            max-height: 38px;
+        }
+
+        #panel-botton {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            /*max-height:10vh;*/
+            overflow: auto;
+            overflow-x: hidden;
+            z-index: 999;
+            /*background: #fff;*/
+        }
+
+        /*@media all and (-webkit-min-device-pixel-ratio: 2) {*/
+        /*    #panel-botton {*/
+        /*        max-height: 10vh;*/
+        /*    }*/
+        /*}*/
+
+        .unselectable {
+            -webkit-touch-callout: none;
+            -webkit-user-select: none;
+            -khtml-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+        }
 
     </style>
-    <link rel="stylesheet" href="//www.mdui.org/source/dist/css/mdui.min.css" />
+
+    <script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
 </head>
 
 <body>
-    <script src="//www.mdui.org/source/dist/js/mdui.min.js"></script>
-    <div id="panel">
-        <div class="mdui-row-xs-2">
-            <div class="mdui-col" style="padding-right: 0px;"> <label class="mdui-checkbox" style="padding-left: 20px;"> <input type="checkbox" name="sup" value="[340000]" /> <i class="mdui-checkbox-icon"></i> 安徽 </label> <label class="mdui-switch"> <input type="checkbox" name="sub" value="[340100, 340200, 340300, 340400, 340500, 340600, 340700, 340800, 341000, 341100, 341200, 341300, 341500, 341600, 341700, 341800]" /> <i class="mdui-switch-icon"></i> </label></div>
-            <div class="mdui-col" style="padding-right: 0px;"> <label class="mdui-checkbox" style="padding-left: 20px;"> <input type="checkbox" name="sup" value="[820000]" /> <i class="mdui-checkbox-icon"></i> 澳门 </label> <label class="mdui-switch" hidden="true"> <input type="checkbox" name="sub" value="[]" /> <i class="mdui-switch-icon"></i> </label></div>
-            <div class="mdui-col" style="padding-right: 0px;"> <label class="mdui-checkbox" style="padding-left: 20px;"> <input type="checkbox" name="sup" value="[110000]" /> <i class="mdui-checkbox-icon"></i> 北京 </label> <label class="mdui-switch" hidden="true"> <input type="checkbox" name="sub" value="[]" /> <i class="mdui-switch-icon"></i> </label></div>
-            <div class="mdui-col" style="padding-right: 0px;"> <label class="mdui-checkbox" style="padding-left: 20px;"> <input type="checkbox" name="sup" value="[500000]" /> <i class="mdui-checkbox-icon"></i> 重庆 </label> <label class="mdui-switch" hidden="true"> <input type="checkbox" name="sub" value="[]" /> <i class="mdui-switch-icon"></i> </label></div>
-            <div class="mdui-col" style="padding-right: 0px;"> <label class="mdui-checkbox" style="padding-left: 20px;"> <input type="checkbox" name="sup" value="[350000]" /> <i class="mdui-checkbox-icon"></i> 福建 </label> <label class="mdui-switch"> <input type="checkbox" name="sub" value="[350100, 350200, 350300, 350400, 350500, 350600, 350700, 350800, 350900]" /> <i class="mdui-switch-icon"></i> </label></div>
-            <div class="mdui-col" style="padding-right: 0px;"> <label class="mdui-checkbox" style="padding-left: 20px;"> <input type="checkbox" name="sup" value="[620000]" /> <i class="mdui-checkbox-icon"></i> 甘肃 </label> <label class="mdui-switch"> <input type="checkbox" name="sub" value="[620100, 620300, 620400, 620500, 620600, 620700, 620800, 620900, 621000, 621100, 621200, 622900, 623000]" /> <i class="mdui-switch-icon"></i> </label></div>
-            <div class="mdui-col" style="padding-right: 0px;"> <label class="mdui-checkbox" style="padding-left: 20px;"> <input type="checkbox" name="sup" value="[440000]" /> <i class="mdui-checkbox-icon"></i> 广东 </label> <label class="mdui-switch"> <input type="checkbox" name="sub" value="[440100, 440200, 440300, 440400, 440500, 440600, 440700, 440800, 440900, 441200, 441300, 441400, 441500, 441600, 441700, 441800, 445100, 445200, 445300]" /> <i class="mdui-switch-icon"></i> </label></div>
-            <div class="mdui-col" style="padding-right: 0px;"> <label class="mdui-checkbox" style="padding-left: 20px;"> <input type="checkbox" name="sup" value="[450000]" /> <i class="mdui-checkbox-icon"></i> 广西 </label> <label class="mdui-switch"> <input type="checkbox" name="sub" value="[450100, 450200, 450300, 450400, 450500, 450600, 450700, 450800, 450900, 451000, 451100, 451200, 451300, 451400]" /> <i class="mdui-switch-icon"></i> </label></div>
-            <div class="mdui-col" style="padding-right: 0px;"> <label class="mdui-checkbox" style="padding-left: 20px;"> <input type="checkbox" name="sup" value="[520000]" /> <i class="mdui-checkbox-icon"></i> 贵州 </label> <label class="mdui-switch"> <input type="checkbox" name="sub" value="[520100, 520200, 520300, 520400, 520500, 520600, 522300, 522600, 522700]" /> <i class="mdui-switch-icon"></i> </label></div>
-            <div class="mdui-col" style="padding-right: 0px;"> <label class="mdui-checkbox" style="padding-left: 20px;"> <input type="checkbox" name="sup" value="[460000]" /> <i class="mdui-checkbox-icon"></i> 海南 </label> <label class="mdui-switch"> <input type="checkbox" name="sub" value="[460100, 460200, 460300]" /> <i class="mdui-switch-icon"></i> </label></div>
-            <div class="mdui-col" style="padding-right: 0px;"> <label class="mdui-checkbox" style="padding-left: 20px;"> <input type="checkbox" name="sup" value="[130000]" /> <i class="mdui-checkbox-icon"></i> 河北 </label> <label class="mdui-switch"> <input type="checkbox" name="sub" value="[130100, 130200, 130300, 130400, 130500, 130600, 130700, 130800, 130900, 131000, 131100]" /> <i class="mdui-switch-icon"></i> </label></div>
-            <div class="mdui-col" style="padding-right: 0px;"> <label class="mdui-checkbox" style="padding-left: 20px;"> <input type="checkbox" name="sup" value="[410000]" /> <i class="mdui-checkbox-icon"></i> 河南 </label> <label class="mdui-switch"> <input type="checkbox" name="sub" value="[410100, 410200, 410300, 410400, 410500, 410600, 410700, 410800, 410900, 411000, 411100, 411200, 411300, 411400, 411500, 411600, 411700]" /> <i class="mdui-switch-icon"></i> </label></div>
-            <div class="mdui-col" style="padding-right: 0px;"> <label class="mdui-checkbox" style="padding-left: 20px;"> <input type="checkbox" name="sup" value="[230000]" /> <i class="mdui-checkbox-icon"></i> 黑龙 </label> <label class="mdui-switch"> <input type="checkbox" name="sub" value="[230100, 230200, 230300, 230400, 230500, 230600, 230700, 230800, 230900, 231000, 231100, 231200, 232700]" /> <i class="mdui-switch-icon"></i> </label></div>
-            <div class="mdui-col" style="padding-right: 0px;"> <label class="mdui-checkbox" style="padding-left: 20px;"> <input type="checkbox" name="sup" value="[420000]" /> <i class="mdui-checkbox-icon"></i> 湖北 </label> <label class="mdui-switch"> <input type="checkbox" name="sub" value="[420100, 420200, 420300, 420500, 420600, 420700, 420800, 420900, 421000, 421100, 421200, 421300, 422800]" /> <i class="mdui-switch-icon"></i> </label></div>
-            <div class="mdui-col" style="padding-right: 0px;"> <label class="mdui-checkbox" style="padding-left: 20px;"> <input type="checkbox" name="sup" value="[430000]" /> <i class="mdui-checkbox-icon"></i> 湖南 </label> <label class="mdui-switch"> <input type="checkbox" name="sub" value="[430100, 430200, 430300, 430400, 430500, 430600, 430700, 430800, 430900, 431000, 431100, 431200, 431300, 433100]" /> <i class="mdui-switch-icon"></i> </label></div>
-            <div class="mdui-col" style="padding-right: 0px;"> <label class="mdui-checkbox" style="padding-left: 20px;"> <input type="checkbox" name="sup" value="[220000]" /> <i class="mdui-checkbox-icon"></i> 吉林 </label> <label class="mdui-switch"> <input type="checkbox" name="sub" value="[220100, 220200, 220300, 220400, 220500, 220600, 220700, 220800, 222400]" /> <i class="mdui-switch-icon"></i> </label></div>
-            <div class="mdui-col" style="padding-right: 0px;"> <label class="mdui-checkbox" style="padding-left: 20px;"> <input type="checkbox" name="sup" value="[320000]" /> <i class="mdui-checkbox-icon"></i> 江苏 </label> <label class="mdui-switch"> <input type="checkbox" name="sub" value="[320100, 320200, 320300, 320400, 320500, 320600, 320700, 320800, 320900, 321000, 321100, 321200, 321300]" /> <i class="mdui-switch-icon"></i> </label></div>
-            <div class="mdui-col" style="padding-right: 0px;"> <label class="mdui-checkbox" style="padding-left: 20px;"> <input type="checkbox" name="sup" value="[360000]" /> <i class="mdui-checkbox-icon"></i> 江西 </label> <label class="mdui-switch"> <input type="checkbox" name="sub" value="[360100, 360200, 360300, 360400, 360500, 360600, 360700, 360800, 360900, 361000, 361100]" /> <i class="mdui-switch-icon"></i> </label></div>
-            <div class="mdui-col" style="padding-right: 0px;"> <label class="mdui-checkbox" style="padding-left: 20px;"> <input type="checkbox" name="sup" value="[210000]" /> <i class="mdui-checkbox-icon"></i> 辽宁 </label> <label class="mdui-switch"> <input type="checkbox" name="sub" value="[210100, 210200, 210300, 210400, 210500, 210600, 210700, 210800, 210900, 211000, 211100, 211200, 211300, 211400]" /> <i class="mdui-switch-icon"></i> </label></div>
-            <div class="mdui-col" style="padding-right: 0px;"> <label class="mdui-checkbox" style="padding-left: 20px;"> <input type="checkbox" name="sup" value="[150000]" /> <i class="mdui-checkbox-icon"></i> 内蒙 </label> <label class="mdui-switch"> <input type="checkbox" name="sub" value="[150100, 150200, 150300, 150400, 150500, 150600, 150700, 150800, 150900, 152200, 152500, 152900]" /> <i class="mdui-switch-icon"></i> </label></div>
-            <div class="mdui-col" style="padding-right: 0px;"> <label class="mdui-checkbox" style="padding-left: 20px;"> <input type="checkbox" name="sup" value="[640000]" /> <i class="mdui-checkbox-icon"></i> 宁夏 </label> <label class="mdui-switch"> <input type="checkbox" name="sub" value="[640100, 640200, 640300, 640400, 640500]" /> <i class="mdui-switch-icon"></i> </label></div>
-            <div class="mdui-col" style="padding-right: 0px;"> <label class="mdui-checkbox" style="padding-left: 20px;"> <input type="checkbox" name="sup" value="[630000]" /> <i class="mdui-checkbox-icon"></i> 青海 </label> <label class="mdui-switch"> <input type="checkbox" name="sub" value="[630100, 630200, 632200, 632300, 632500, 632600, 632700, 632800]" /> <i class="mdui-switch-icon"></i> </label></div>
-            <div class="mdui-col" style="padding-right: 0px;"> <label class="mdui-checkbox" style="padding-left: 20px;"> <input type="checkbox" name="sup" value="[370000]" /> <i class="mdui-checkbox-icon"></i> 山东 </label> <label class="mdui-switch"> <input type="checkbox" name="sub" value="[370100, 370200, 370300, 370400, 370500, 370600, 370700, 370800, 370900, 371000, 371100, 371200, 371300, 371400, 371500, 371600, 371700]" /> <i class="mdui-switch-icon"></i> </label></div>
-            <div class="mdui-col" style="padding-right: 0px;"> <label class="mdui-checkbox" style="padding-left: 20px;"> <input type="checkbox" name="sup" value="[140000]" /> <i class="mdui-checkbox-icon"></i> 山西 </label> <label class="mdui-switch"> <input type="checkbox" name="sub" value="[140100, 140200, 140300, 140400, 140500, 140600, 140700, 140800, 140900, 141000, 141100]" /> <i class="mdui-switch-icon"></i> </label></div>
-            <div class="mdui-col" style="padding-right: 0px;"> <label class="mdui-checkbox" style="padding-left: 20px;"> <input type="checkbox" name="sup" value="[610000]" /> <i class="mdui-checkbox-icon"></i> 陕西 </label> <label class="mdui-switch"> <input type="checkbox" name="sub" value="[610100, 610200, 610300, 610400, 610500, 610600, 610700, 610800, 610900, 611000]" /> <i class="mdui-switch-icon"></i> </label></div>
-            <div class="mdui-col" style="padding-right: 0px;"> <label class="mdui-checkbox" style="padding-left: 20px;"> <input type="checkbox" name="sup" value="[310000]" /> <i class="mdui-checkbox-icon"></i> 上海 </label> <label class="mdui-switch" hidden="true"> <input type="checkbox" name="sub" value="[]" /> <i class="mdui-switch-icon"></i> </label></div>
-            <div class="mdui-col" style="padding-right: 0px;"> <label class="mdui-checkbox" style="padding-left: 20px;"> <input type="checkbox" name="sup" value="[510000]" /> <i class="mdui-checkbox-icon"></i> 四川 </label> <label class="mdui-switch"> <input type="checkbox" name="sub" value="[510100, 510300, 510400, 510500, 510600, 510700, 510800, 510900, 511000, 511100, 511300, 511400, 511500, 511600, 511700, 511800, 511900, 512000, 513200, 513300, 513400]" /> <i class="mdui-switch-icon"></i> </label></div>
-            <div class="mdui-col" style="padding-right: 0px;"> <label class="mdui-checkbox" style="padding-left: 20px;"> <input type="checkbox" name="sup" value="[120000]" /> <i class="mdui-checkbox-icon"></i> 天津 </label> <label class="mdui-switch" hidden="true"> <input type="checkbox" name="sub" value="[]" /> <i class="mdui-switch-icon"></i> </label></div>
-            <div class="mdui-col" style="padding-right: 0px;"> <label class="mdui-checkbox" style="padding-left: 20px;"> <input type="checkbox" name="sup" value="[540000]" /> <i class="mdui-checkbox-icon"></i> 西藏 </label> <label class="mdui-switch"> <input type="checkbox" name="sub" value="[540100, 540200, 540300, 540400, 540500, 542400, 542500]" /> <i class="mdui-switch-icon"></i> </label></div>
-            <div class="mdui-col" style="padding-right: 0px;"> <label class="mdui-checkbox" style="padding-left: 20px;"> <input type="checkbox" name="sup" value="[810000]" /> <i class="mdui-checkbox-icon"></i> 香港 </label> <label class="mdui-switch" hidden="true"> <input type="checkbox" name="sub" value="[]" /> <i class="mdui-switch-icon"></i> </label></div>
-            <div class="mdui-col" style="padding-right: 0px;"> <label class="mdui-checkbox" style="padding-left: 20px;"> <input type="checkbox" name="sup" value="[650000]" /> <i class="mdui-checkbox-icon"></i> 新疆 </label> <label class="mdui-switch"> <input type="checkbox" name="sub" value="[650100, 650200, 650400, 650500, 652300, 652700, 652800, 652900, 653000, 653100, 653200, 654000, 654200, 654300]" /> <i class="mdui-switch-icon"></i> </label></div>
-            <div class="mdui-col" style="padding-right: 0px;"> <label class="mdui-checkbox" style="padding-left: 20px;"> <input type="checkbox" name="sup" value="[530000]" /> <i class="mdui-checkbox-icon"></i> 云南 </label> <label class="mdui-switch"> <input type="checkbox" name="sub" value="[530100, 530300, 530400, 530500, 530600, 530700, 530800, 530900, 532300, 532500, 532600, 532800, 532900, 533100, 533300, 533400]" /> <i class="mdui-switch-icon"></i> </label></div>
-            <div class="mdui-col" style="padding-right: 0px;"> <label class="mdui-checkbox" style="padding-left: 20px;"> <input type="checkbox" name="sup" value="[330000]" /> <i class="mdui-checkbox-icon"></i> 浙江 </label> <label class="mdui-switch"> <input type="checkbox" name="sub" value="[330100, 330200, 330300, 330400, 330500, 330600, 330700, 330800, 330900, 331000, 331100]" /> <i class="mdui-switch-icon"></i> </label></div>
-            <div class="mdui-col">
-                <button onclick="updateSelect()" class="mdui-btn mdui-btn-block mdui-color-pink mdui-ripple" style="color: #fff!important;">更新</button>
-            </div>
-        </div>
-    </div>
-    <div id="panel-botton">
-        <div class="mdui-row-xs-2">
-            <!-- 颜色见: https://www.mdui.org/docs/color -->
-            <div class="mdui-col">
-                <button onclick="slayer(mapType.高德)" class="mdui-btn mdui-btn-block mdui-color-blue mdui-ripple" style="color: #fff!important;">高德</button>
-            </div>
-            <div class="mdui-col">
-                <button onclick="slayer(mapType.高德卫星)" class="mdui-btn mdui-btn-block mdui-color-cyan mdui-ripple" style="color: #fff!important;">高德卫星</button>
-            </div>
-            <div class="mdui-col">
-                <button onclick="slayer(mapType.高星网)" class="mdui-btn mdui-btn-block mdui-color-light-blue mdui-ripple" style="color: #fff!important;">高星网</button>
-            </div>
-            <div class="mdui-col">
-                <button onclick="slayer(mapType.高德交通)" class="mdui-btn mdui-btn-block mdui-color-indigo mdui-ripple" style="color: #fff!important;">高德交通</button>
-            </div>
-            <div class="mdui-col">
-                <button onclick="slayer(mapType.谷歌)" class="mdui-btn mdui-btn-block mdui-color-red mdui-ripple" style="color: #fff!important;">谷歌</button>
-            </div>
-            <div class="mdui-col">
-                <button onclick="slayer(mapType.谷歌卫星)" class="mdui-btn mdui-btn-block mdui-color-purple mdui-ripple" style="color: #fff!important;">谷歌卫星</button>
-            </div>
-            <div class="mdui-col">
-                <button onclick="slayer(mapType.谷星高网)" class="mdui-btn mdui-btn-block mdui-color-pink mdui-ripple" style="color: #fff!important;">谷星高网</button>
-            </div>
-        </div>
-    </div>
-    <script type="text/javascript">
+
+<div id="full-panel">
+    <label onclick="toggleFullScreen()" class="unselectable"><span>全屏</span></label>
+</div>
+
+<div id="upt-panel">
+    <label onclick="updateSelect()" class="unselectable"><span>更新所选</span></label>
+</div>
+
+<div id="panel"></div>
+
+<div id="panel-botton"></div>
+
+<script type="text/javascript">
     function updateSelect() {
         var sups = document.getElementsByName('sup');
         var subs = document.getElementsByName('sub');
@@ -135,12 +125,12 @@
         }
         lvl(sb);
     }
-    </script>
-    <div id="container"></div>
-    <script type="text/javascript" src='//webapi.amap.com/maps?v=1.3&key=160cab8ad6c50752175d76e61ef92c50'></script>
-    <!-- UI组件库 1.0 -->
-    <script src="//webapi.amap.com/ui/1.0/main.js?v=1.0.11"></script>
-    <script type="text/javascript">
+</script>
+<div id="container"></div>
+<script type="text/javascript" src='//webapi.amap.com/maps?v=1.3&key=160cab8ad6c50752175d76e61ef92c50'></script>
+<!-- UI组件库 1.0 -->
+<script src="//webapi.amap.com/ui/1.0/main.js?v=1.0.11"></script>
+<script type="text/javascript">
     //创建地图
     var map = new AMap.Map('container', {
         cursor: 'default',
@@ -175,12 +165,12 @@
 
     var mapType = {
         '高德': [],
-        '高德卫星': [amapwx],
         '高星网': [amapwx, amap],
+        '高星': [amapwx],
         '高德交通': [amapjt, amap],
         '谷歌': [google],
-        '谷歌卫星': [googlewx],
-        '谷星高网': [googlewx, amap]
+        '谷星': [googlewx],
+        '谷星高网': [googlewx, amap],
     }
 
     function slayer(tp) {
@@ -202,7 +192,7 @@
     // 控制台切换函数，使用如 lvl(dataMap.湖南省) 其中 dataMap. 会有提示
     function lvl(nds) {
         adcodes = nds;
-        districtExplorer.loadMultiAreaNodes(nds, function(error, areaNodes) {
+        districtExplorer.loadMultiAreaNodes(nds, function (error, areaNodes) {
 
             //清除已有的绘制内容
             districtExplorer.clearFeaturePolygons();
@@ -224,7 +214,7 @@
     function renderAreaNode(areaNode) {
 
         //绘制子区域
-        districtExplorer.renderSubFeatures(areaNode, function(feature, i) {
+        districtExplorer.renderSubFeatures(areaNode, function (feature, i) {
 
             var fillColor = colors[i % colors.length];
             var strokeColor = colors[colors.length - 1 - i % colors.length];
@@ -253,14 +243,14 @@
     }
 
     function loadui() {
-        AMapUI.loadUI(['geo/DistrictExplorer'], function(DistrictExplorer) {
+        AMapUI.loadUI(['geo/DistrictExplorer'], function (DistrictExplorer) {
 
             //创建一个实例
             districtExplorer = new DistrictExplorer({
                 map: map
             });
 
-            districtExplorer.loadMultiAreaNodes(adcodes, function(error, areaNodes) {
+            districtExplorer.loadMultiAreaNodes(adcodes, function (error, areaNodes) {
 
                 //清除已有的绘制内容
                 districtExplorer.clearFeaturePolygons();
@@ -275,8 +265,118 @@
 
         });
     }
+
     loadui();
-    </script>
+
+    function toggleFullScreen() {
+        var doc = window.document;
+        var docEl = doc.documentElement;
+
+        var requestFullScreen = docEl.requestFullscreen || docEl.mozRequestFullScreen || docEl.webkitRequestFullScreen || docEl.msRequestFullscreen;
+        var cancelFullScreen = doc.exitFullscreen || doc.mozCancelFullScreen || doc.webkitExitFullscreen || doc.msExitFullscreen;
+
+        if (!doc.fullscreenElement && !doc.mozFullScreenElement && !doc.webkitFullscreenElement && !doc.msFullscreenElement) {
+            requestFullScreen.call(docEl);
+        } else {
+            cancelFullScreen.call(doc);
+        }
+    }
+
+</script>
+<script type="text/javascript">
+    const provData = {
+        '安徽': ['[340000]', '[340100,340200,340300,340400,340500,340600,340700,340800,341000,341100,341200,341300,341500,341600,341700,341800]'],
+        '澳门': ['[820000]'],
+        '北京': ['[110000]'],
+        '福建': ['[350000]', '[350100,350200,350300,350400,350500,350600,350700,350800,350900]'],
+        '甘肃': ['[620000]', '[620100,620300,620400,620500,620600,620700,620800,620900,621000,621100,621200,622900,623000]'],
+        '广东': ['[440000]', '[440100,440200,440300,440400,440500,440600,440700,440800,440900,441200,441300,441400,441500,441600,441700,441800,445100,445200,445300]'],
+        '广西': ['[450000]', '[450100,450200,450300,450400,450500,450600,450700,450800,450900,451000,451100,451200,451300,451400]'],
+        '贵州': ['[520000]', '[520100,520200,520300,520400,520500,520600,522300,522600,522700]'],
+        '海南': ['[460000]', '[460100,460200,460300]'],
+        '河北': ['[130000]', '[130100,130200,130300,130400,130500,130600,130700,130800,130900,131000,131100]'],
+        '河南': ['[410000]', '[410100,410200,410300,410400,410500,410600,410700,410800,410900,411000,411100,411200,411300,411400,411500,411600,411700]'],
+        '黑龙': ['[230000]', '[230100,230200,230300,230400,230500,230600,230700,230800,230900,231000,231100,231200,232700]'],
+        '湖北': ['[420000]', '[420100,420200,420300,420500,420600,420700,420800,420900,421000,421100,421200,421300,422800]'],
+        '湖南': ['[430000]', '[430100,430200,430300,430400,430500,430600,430700,430800,430900,431000,431100,431200,431300,433100]'],
+        '吉林': ['[220000]', '[220100,220200,220300,220400,220500,220600,220700,220800,222400]'],
+        '江苏': ['[320000]', '[320100,320200,320300,320400,320500,320600,320700,320800,320900,321000,321100,321200,321300]'],
+        '江西': ['[360000]', '[360100,360200,360300,360400,360500,360600,360700,360800,360900,361000,361100]'],
+        '辽宁': ['[210000]', '[210100,210200,210300,210400,210500,210600,210700,210800,210900,211000,211100,211200,211300,211400]'],
+        '内蒙': ['[150000]', '[150100,150200,150300,150400,150500,150600,150700,150800,150900,152200,152500,152900]'],
+        '宁夏': ['[640000]', '[640100,640200,640300,640400,640500]'],
+        '青海': ['[630000]', '[630100,630200,632200,632300,632500,632600,632700,632800]'],
+        '山东': ['[370000]', '[370100,370200,370300,370400,370500,370600,370700,370800,370900,371000,371100,371200,371300,371400,371500,371600,371700]'],
+        '山西': ['[140000]', '[140100,140200,140300,140400,140500,140600,140700,140800,140900,141000,141100]'],
+        '陕西': ['[610000]', '[610100,610200,610300,610400,610500,610600,610700,610800,610900,611000]'],
+        '上海': ['[310000]'],
+        '四川': ['[510000]', '[510100,510300,510400,510500,510600,510700,510800,510900,511000,511100,511300,511400,511500,511600,511700,511800,511900,512000,513200,513300,513400]'],
+        '天津': ['[120000]'],
+        '西藏': ['[540000]', '[540100,540200,540300,540400,540500,542400,542500]'],
+        '香港': ['[810000]'],
+        '新疆': ['[650000]', '[650100,650200,650400,650500,652300,652700,652800,652900,653000,653100,653200,654000,654200,654300]'],
+        '云南': ['[530000]', '[530100,530300,530400,530500,530600,530700,530800,530900,532300,532500,532600,532800,532900,533100,533300,533400]'],
+        '浙江': ['[330000]', '[330100,330200,330300,330400,330500,330600,330700,330800,330900,331000,331100]'],
+        '重庆': ['[500000]']
+    }
+    const citiesMap = new Map(Object.entries(provData))
+
+    let panelDat = $('<div>')
+
+    for (const [k, v] of citiesMap.entries()) {
+        let dat = $('<div>')
+
+        let pipt = $('<input>')
+        pipt.attr('type', 'checkbox')
+        pipt.attr('name', 'sup')
+        pipt.attr('value', v[0])
+
+        let plab = $('<label>')
+        plab.append(pipt)
+        plab.addClass('unselectable')
+        plab.append('<span>' + k + '</span>')
+
+        dat.append(plab)
+
+        let cipt = $('<input>')
+        cipt.attr('type', 'checkbox')
+        cipt.attr('name', 'sub')
+        if (v.length > 1) {
+            cipt.attr('value', v[1])
+        } else {
+            cipt.attr('hidden', 'true')
+        }
+
+        let clab = $('<label>')
+        clab.append(cipt)
+
+        dat.append(clab)
+
+
+        panelDat.append(dat)
+    }
+    $('#panel').append(panelDat)
+
+
+    // 左下底图
+    for (const [i, k] of Object.keys(mapType).entries()) {
+        let spn = $('<span>')
+        spn.addClass('button toggle')
+        spn.css('background-color', colors[i])
+        spn.css('color', 'white')
+        spn.html(k)
+
+        let lab = $('<label>')
+        lab.addClass('unselectable')
+        lab.css('margin-right', '3px')
+        lab.addClass('stack')
+        lab.attr('onclick', 'slayer(mapType.' + k + ')')
+        // lab.append('<input name="stack" type="radio">')
+        lab.append(spn)
+
+        $('#panel-botton').append(lab)
+    }
+</script>
 </body>
 
 </html>
